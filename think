@@ -1,0 +1,10 @@
+﻿#!/usr/bin/env php
+<?php
+namespace think;
+
+// CLI entry file
+// Load framework bootstrap file
+require __DIR__ . '/vendor/autoload.php';
+
+// Initialize application
+(new App())->console->run();
